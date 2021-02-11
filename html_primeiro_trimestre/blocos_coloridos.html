@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nosso exercicio</title>
+	<style type="text/css">
+		
+		.linha {
+		    display: flex;
+		    flex-direction: row;
+		    flex-wrap: wrap;
+		    width: 100%;
+		}
+
+		.coluna {
+		    display: flex;
+		    flex-direction: column;
+		    flex-basis: 100%;
+		    flex: 1;
+		}
+
+		.amarelo {
+		    background-color: yellow;
+		}
+
+		.laranja {
+		    background-color: orange;
+		}
+
+		.verde {
+		    background-color: lightgreen;
+		}
+
+		.azul {
+		    background-color: lightblue;
+		}
+		</style>
+</head>
+<body>
+
+	<div class="tabela">
+		<div class="linha amarelo"> 1 </div>
+		<div class="linha">
+			<div class="coluna verde">2</div>
+			<div class="coluna azul">3</div>
+		</div>
+		<div class="linha">
+			<div class="coluna amarelo">4</div>
+			<div class="coluna laranja">5</div>
+			<div class="coluna amarelo">6</div>
+		</div>
+		<div class="linha">
+			<div class="coluna verde">7</div>
+			<div class="coluna azul">
+				<div class="linha">8</div>
+				<div class="linha">9</div>
+				<div class="linha">10</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
